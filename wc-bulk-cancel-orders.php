@@ -51,7 +51,7 @@ function my_bulk_process_custom_status() {
     foreach( $_REQUEST['post'] as $order_id ) {
 
         $order = new WC_Order( $order_id );
-        $order_note = 'That\'s what happened by bulk edit:';
+        $order_note = 'Here\'s what happened by bulk edit:';
         $order->update_status( 'cancelled', $order_note, true ); // "my-shipment" is the order status name 
     }
 

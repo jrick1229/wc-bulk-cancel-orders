@@ -1,4 +1,4 @@
-# WordPress Boilerplate Plugin
+# WooCommerce - Bulk Cancel Orders
 
  For use with [WordPress](https://wordpress.org/download/).
 
