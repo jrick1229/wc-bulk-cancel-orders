@@ -31,7 +31,7 @@ add_filter( 'bulk_actions-edit-shop_order', 'my_register_bulk_action' ); // edit
 
 function my_register_bulk_action( $bulk_actions ) {
 
-    $bulk_actions['mark_change_status_to_cancelled'] = 'Order Cancel'; // <option value="mark_awaiting_shipment">Order Cancel</option>
+    $bulk_actions['mark_change_status_to_cancelled'] = 'Change status to cancelled'; // <option value="mark_awaiting_shipment">Order Cancel</option>
     return $bulk_actions;
 
 }
